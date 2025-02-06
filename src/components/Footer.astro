@@ -5,10 +5,136 @@ import { url } from '../utils/url-utils'
 const currentYear = new Date().getFullYear()
 ---
 
-<!--<div class="border-t border-[var(&#45;&#45;primary)] mx-16 border-dashed py-8 max-w-[var(&#45;&#45;page-width)] flex flex-col items-center justify-center px-6">-->
-<div class="transition border-t border-black/10 dark:border-white/15 my-10 border-dashed mx-32"></div>
-<!--<div class="transition bg-[oklch(92%_0.01_var(&#45;&#45;hue))] dark:bg-black rounded-2xl py-8 mt-4 mb-8 flex flex-col items-center justify-center px-6">-->
-<div class="transition border-dashed border-[oklch(85%_0.01_var(--hue))] dark:border-white/15 rounded-2xl mb-12 flex flex-col items-center justify-center px-6">
+<div class="transition border-t border-black/10 dark:border-white/15 my-10 border-dashed mx-40"></div>
+
+<!-- New Testimonials Section -->
+<div class="card-base px-12 py-6 mb-6 mx-auto max-w-[95%]">
+    <h3 class="text-xl font-bold mb-4 text-[var(--primary)]">Testimonios de Clientes</h3>
+
+    <!-- Slider Container -->
+    <div class="relative">
+        <div class="testimonial-slider overflow-hidden w-full">
+            <div class="testimonial-track flex transition-transform duration-500">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-item p-4 rounded-lg bg-[var(--card-bg)] flex items-center flex-[0_0_100%] min-w-full">
+                    <div>
+                        <p class="text-75 mb-2">"El servicio que recibí fue absolutamente excepcional. Me ayudaron a resolver todos mis problemas de manera rápida y eficiente, y el trato fue muy profesional. Sin duda, volveré a contar con ellos para futuros proyectos. ¡Altamente recomendados!"</p>
+                        <div class="text-sm text-50">- Juan</div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-item p-4 rounded-lg bg-[var(--card-bg)] flex items-center flex-[0_0_100%] min-w-full">
+                    <div>
+                        <p class="text-75 mb-2">"Estoy impresionada con la calidad del servicio. Me ofrecieron soluciones muy innovadoras y se aseguraron de entender completamente mis necesidades antes de actuar. Los recomiendo a todos los que busquen un servicio de primera clase. ¡Gracias por todo!"</p>
+                        <div class="text-sm text-50">- María</div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-item p-4 rounded-lg bg-[var(--card-bg)] flex items-center flex-[0_0_100%] min-w-full">
+                    <div>
+                        <p class="text-75 mb-2">"Recibí un trato cálido y cercano desde el primer momento. Todo el equipo fue muy atento, escucharon todas mis dudas y me guiaron durante todo el proceso. Me sentí completamente apoyado en todo momento. ¡No puedo pedir más!"</p>
+                        <div class="text-sm text-50">- Anonimo</div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-item p-4 rounded-lg bg-[var(--card-bg)] flex items-center flex-[0_0_100%] min-w-full">
+                    <div>
+                        <p class="text-75 mb-2">"Increíble experiencia. El servicio fue mucho más allá de lo que esperaba. Además, el equipo de atención fue muy amable y profesional. Me dieron un acompañamiento constante hasta el final. ¡Gracias por hacer mi proyecto un éxito!"</p>
+                        <div class="text-sm text-50">- Carla </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-item p-4 rounded-lg bg-[var(--card-bg)] flex items-center flex-[0_0_100%] min-w-full">
+                    <div>
+                        <p class="text-75 mb-2">"Este servicio fue una verdadera revelación. El equipo se tomó el tiempo de escuchar mis ideas y necesidades, y logró transformar todo en algo increíble. Me sentí respaldado y satisfecho con el resultado final. ¡Los recomiendo sin dudar!"</p>
+                        <div class="text-sm text-50">- Anonimo</div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-item p-4 rounded-lg bg-[var(--card-bg)] flex items-center flex-[0_0_100%] min-w-full">
+                    <div>
+                        <p class="text-75 mb-2">"Lo que más me impresionó fue la rapidez con la que resolvieron mi solicitud. Fueron increíblemente efectivos, sin sacrificar la calidad del servicio. Además, su actitud positiva y su enfoque proactivo fueron clave para el éxito de todo. ¡Una experiencia excelente!"</p>
+                        <div class="text-sm text-50">- Laura </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-item p-4 rounded-lg bg-[var(--card-bg)] flex items-center flex-[0_0_100%] min-w-full">
+                    <div>
+                        <p class="text-75 mb-2">"Desde el inicio, me sentí muy cómodo trabajando con ellos. Tienen un equipo increíblemente talentoso y su capacidad para comprender y adaptar sus servicios a mis necesidades fue impresionante. El resultado final fue mucho más de lo que esperaba. ¡Totalmente recomendados!"</p>
+                        <div class="text-sm text-50">- Hugo </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-item p-4 rounded-lg bg-[var(--card-bg)] flex items-center flex-[0_0_100%] min-w-full">
+                    <div>
+                        <p class="text-75 mb-2">"Desde el principio me sentí como en casa. Me brindaron todo el apoyo necesario y siempre estuvieron disponibles para cualquier pregunta. No solo resolvieron mis necesidades, sino que además me brindaron una experiencia única. Sin duda, volveré a contratar sus servicios." </p>
+                        <div class="text-sm text-50">- Sofía </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-item p-4 rounded-lg bg-[var(--card-bg)] flex items-center flex-[0_0_100%] min-w-full">
+                    <div>
+                        <p class="text-75 mb-2">"El servicio fue excelente de principio a fin. Me ofrecieron soluciones personalizadas y adaptadas a mis expectativas. El nivel de detalle y cuidado que pusieron en cada paso del proceso fue sorprendente. Estoy completamente satisfecho con el resultado." </p>
+                        <div class="text-sm text-50">- Anonimo</div>
+                    </div>
+                </div>
+                
+
+            </div>
+        </div>
+
+        <!-- Pagination (Prev/Next) -->
+        <div class="absolute top-1/2 left-0 transform -translate-y-1/2 p-2 cursor-pointer" id="prev-slide">
+            <i class="fas fa-chevron-left text-[var(--primary)]"></i>
+        </div>
+        <div class="absolute top-1/2 right-0 transform -translate-y-1/2 p-2 cursor-pointer" id="next-slide">
+            <i class="fas fa-chevron-right text-[var(--primary)]"></i>
+        </div>
+    </div>
+</div>
+
+<script>
+    const track = document.querySelector('.testimonial-track');
+    let index = 0;
+    let counter = 0; // Contador de ciclos de 3 segundos
+    const totalSlides = document.querySelectorAll('.testimonial-item').length;
+
+    // Ajustar el ancho de los testimonios al cargar la página y al cambiar el tamaño de la ventana
+    function adjustTestimonialWidth() {
+        const sliderElement = document.querySelector('.testimonial-slider');
+        const sliderWidth = sliderElement ? (sliderElement as HTMLElement).offsetWidth : 0;
+        document.querySelectorAll('.testimonial-item').forEach(item => {
+            (item as HTMLElement).style.width = `${sliderWidth}px`;
+        });
+    }
+
+    // Mover el slider
+    function moveSlider() {
+        (track as HTMLElement).style.transform = `translateX(-${index * 100}%)`;
+    }
+
+    // Desplazamiento automático cada 3 segundos
+    setInterval(() => {
+        if (counter < 6) { // Recorre 5 ciclos de 3 segundos (15 segundos)
+            if (index < totalSlides - 1) {
+                index++;
+            }
+        } else {
+            index = 0; // Vuelve al primer slide después de 15 segundos
+            counter = 0; // Reinicia el contador
+        }
+        moveSlider();
+        counter++; // Aumenta el contador después de cada intervalo
+    }, 8000); // 3 segundos
+
+    // Ajustar el ancho de los testimonios al cargar la página y al cambiar el tamaño de la ventana
+    window.addEventListener('resize', adjustTestimonialWidth);
+    document.addEventListener('DOMContentLoaded', adjustTestimonialWidth);
+</script>
+
+
+<!-- Footer Section -->
+<div class="transition border-dashed border-[oklch(85%_0.01_var(--hue))] dark:border-white/15 rounded-2xl mb-12 flex flex-col items-center justify-center px-8">
     <div class="transition text-50 text-sm text-center">
         &copy; <span id="copyright-year">{currentYear}</span> {profileConfig.name}. Todos los derechos reservados. /
         <a class="transition link text-[var(--primary)] font-medium" target="_blank" href={url('sitemap-index.xml')}></a><br>

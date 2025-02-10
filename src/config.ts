@@ -65,7 +65,7 @@ export const profileConfig: ProfileConfig = {
     {
       name: 'WhatsApp',
       icon: 'fa6-brands:whatsapp',
-      url: 'https://wa.me/34663124767',
+      url: 'https://wa.me/34641852086',
     }
   ],
 }

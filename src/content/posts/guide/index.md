@@ -14,4 +14,4 @@ Este blog está diseñado para brindarte guía y conocimiento sobre astrología,
 
 Si deseas conocer más sobre tu carta astral, recibir orientación personalizada o explorar el impacto de los planetas en tu camino, puedes contactarme directamente a través de WhatsApp. Estoy aquí para ayudarte a interpretar los mensajes del universo y encontrar respuestas a tus preguntas.
 
-Para más información, escríbeme al [Whatsapp](https://api.whatsapp.com/send/?phone=34663124767&text&type=phone_number&app_absent=0).
+Para más información, escríbeme al [Whatsapp](https://api.whatsapp.com/send/?phone=34641852086&text&type=phone_number&app_absent=0).

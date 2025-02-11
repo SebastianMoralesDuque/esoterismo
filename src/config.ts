@@ -53,7 +53,7 @@ export const navBarConfig: NavBarConfig = {
 export const profileConfig: ProfileConfig = {
   avatar: 'assets/images/demo-avatar.png',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
   name: 'Misionero del amor',
-  bio: 'Tu asistente de confianza.',
+  bio: 'Magia blanca para una vida mejor.',
   links: [
     {
       name: 'Facebook',
@@ -65,7 +65,7 @@ export const profileConfig: ProfileConfig = {
     {
       name: 'WhatsApp',
       icon: 'fa6-brands:whatsapp',
-      url: 'https://wa.me/34663124767',
+      url: 'https://wa.me/34637133956',
     }
   ],
 }

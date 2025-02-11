@@ -3,7 +3,7 @@ title: Videos Sobre Astrologia
 published: 2023-08-01
 description: Descripcion sobre la astrologia del amor.
 tags: [Astrologia, Universo]
-category: Abundancia
+category: Tarot
 draft: false
 ---
 

@@ -1,14 +1,14 @@
 ---
-title: Astrología
+title: Dominio
 published: 2024-01-01
-tags: [Zodiaco, Amarres, Universo]
-category: Amor
+tags: [Tarot, Amarres, Endulzamiento]
+category: Endulzamiento
 draft: true
 ---
 
-# Sobre la Astrología
+# Sobre el Dominio
 
-La astrología es una herramienta ancestral que nos permite comprender la conexión entre los astros y nuestra vida. A través del estudio de los planetas, signos y casas astrales, podemos descubrir patrones ocultos que influyen en nuestra personalidad, emociones y destino.
+El Dominio es una herramienta ancestral que nos permite comprender la conexión entre los astros y nuestra vida. A través del estudio de los planetas, signos y casas astrales, podemos descubrir patrones ocultos que influyen en nuestra personalidad, emociones y destino.
 
 Cada carta natal es un mapa único que revela talentos, desafíos y oportunidades. No se trata de predicciones fijas, sino de un lenguaje simbólico que nos ayuda a alinear nuestra energía con el flujo del cosmos.
 

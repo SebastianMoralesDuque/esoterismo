@@ -21,7 +21,7 @@ import { remarkReadingTime } from "./src/plugins/remark-reading-time.mjs";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://SebastianMoralesDuque.github.io",
+  site: "https://misionerodelamor.site",
   base: "esoterismo",
   trailingSlash: "always",
   integrations: [
